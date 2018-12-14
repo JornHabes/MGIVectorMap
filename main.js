@@ -30,16 +30,15 @@ var mystyle = {
         },
 		{
             "id": "infra",
-            "type": "fill",
+            "type": "line",
             "source": "pdok",
             "source-layer": "infra",
             "maxzoom": 22,
             "minzoom": 0,
             //"filter": ["==", "lod1", "buildings"],
             "paint": {
-                "fill-color" :"#d3d3d3",
-                "fill-outline-color": "#d3d3d3"
-            }
+                "line-color" :"#d3d3d3"
+                }
         },
 		{
             "id": "water",
